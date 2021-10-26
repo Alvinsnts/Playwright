@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.15.2",
+    "allure-commandline": "^2.13.8",
+    "allure-playwright": "^2.0.0-beta.14",
+    "playwright-cli": "^0.180.0"
+  }
+}
