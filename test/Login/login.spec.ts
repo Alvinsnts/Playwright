@@ -18,4 +18,5 @@ test.only('2.1.8 Verify paste functionality in password field', async ({ page })
   await page.keyboard.press('Control+C');
   await loginPage.passwordBox();
   await page.keyboard.press('Control+V');
+  
 });

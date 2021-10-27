@@ -19,6 +19,7 @@ test('Verify after logout user cannnot use the back button', async ({ page }) =>
   await authPage.logout();
   await page.goto('https://pen-stage.udata.id/page/index');
   await expect(page).toHaveURL('https://pen-stage.udata.id/page/index');
+  
 });
 
 
