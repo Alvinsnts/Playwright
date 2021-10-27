@@ -39,6 +39,4 @@ export class AuthPage {
         await this.page.hover('#password');
         await this.page.click('#password');
     }
-    
-    
 }
